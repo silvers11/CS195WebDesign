@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+	<link href='http://fonts.googleapis.com/css?family=Bitter|Nunito' rel='stylesheet' type='text/css'>
+	<?php $sitename="Steven Silvers' Resume"; 
+      $sitedescription="Where hard work meets having fun"; 
+      $siteowner="Steven Silvers";
+      $sitepath="http://people.oregonstate.edu/~silverss/resume/"; 
+	?>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title><?php echo $pagetitle. " | ".$sitename. " | " .$sitedescription; ?></title>
+        <meta name="description" content="<?php echo $sitedescription; ?>">
+		<meta name="author" content="<?php echo $siteowner; ?>" />
+		<meta name="Robots" content="noindex, nofollow, noarchive" />
+		<meta name="keywords" content="OSU Ultimate Frisbee, OSU club sports, Corvallis Ultimate Frisbee, Corvallis Ultimate, Oregon State Ultimate Frisbee, Oregon state club sports, 
+	Oregon State University club sports, Oregon State University Ultimate Frisbee, Oregon State University Club Ultimate, OSU Men's Ultimate, Corvallis Men's Ultimate,
+	Oregon State Men's Ultimate Frisbee, Oregon State University Men's Ultimate Frisbee, OSU Ultimate Disc, OSU Men's Ultimate Disc, Oregon State Men's Ultimate Disc,
+	Oregon State University Men's Ultimate Disc, Corvallis Men's Ultimate Disc, Corvallis Ultimate Disc, Oregon Ultimate Frisbee" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+		<link rel="icon" sizes="240x240" href="<?php echo $sitepath; ?>/img/wallpaper2.png">
+		
+        <link rel="stylesheet" href="<?php echo $sitepath; ?>css/normalize.css">
+        <link rel="stylesheet" href="<?php echo $sitepath; ?>css/main.css">
+        <script src="<?php echo $sitepath; ?>js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div id="container">
+		<nav id="tools">
+		<ul class="horizontal corners">
+		<li><a href="<?php echo $sitepath; ?>contact/index.php">Contact Us</a></li>
+		<li><a href="<?php echo $sitepath; ?>about/index.php">About Us</a></li>
+		<li><a href="#" onclick="window.print(); return false;" title="Opens the print dialog box.">Print</a></li>
+		<li><a href="<?php echo $sitepath; ?>">Home</a></li>
+		</ul>
+		</nav>
+		<header>
+			<a href="<?php echo $sitepath; ?>">
+    <img src="<?php echo $sitepath; ?>img/ultimatelogo2.png" 
+    alt="<?php echo $sitename; ?>" 
+    title="<?php echo $sitedescription; ?>" class="transform" />
+			</a>
+			<p id="catch"> <?php echo $sitedescription; ?></p>
+		
+		</header>
+		<nav id="main" class="corners boxshadows">
+		<ul class="horizontal ">
+		<li><a href="#content" title="Skip to the content">&darr;</a></li>
+		<li><a href="<?php echo $sitepath; ?>">Home</a></li>
+		<li><a href="<?php echo $sitepath; ?>calendar/index.php">Calendar</a></li>
+		<li><a href="<?php echo $sitepath; ?>schedule/index.php">Practice Schedule</a></li>
+		<li><a href="<?php echo $sitepath; ?>tutorials/index.php">tutorials</a>
+			<ul>
+			<li><a href="<?php echo $sitepath; ?>tutorials/throws.php">Throws</a></li>
+			<li><a href="<?php echo $sitepath; ?>tutorials/offense.php">Offense</a></li>
+			<li><a href="<?php echo $sitepath; ?>tutorials/defense.php">Defense</a></li>
+			</ul>
+		</li>
+		</ul>
+		
+		</nav>
+		
+		
+		<nav id="leftcolumn" class="corners boxshadows">
+		<ul class="vertical corners">
+		<li class="transition"><a href="https://www.facebook.com/osubeaversultimatedisc">Facebook</a></li>
+		<li class="transition"><a href="https://twitter.com/OSU_ultimate">Twitter</a></li>
+		<li class="transition"><a href="https://www.instagram.com">Instagram</a></li>
+		</ul>
+		<img src="<?php echo $sitepath; ?>img/lucky-throw.jpg" alt="Lucky throwing a backhand" title="&copy; 2015 OSU men's Ultimate" />
+		</nav>
+		
+		
+		<section id="content" class="outline boxshadows">
+			<h2><?php echo $pagetitle; ?></h2>
+
